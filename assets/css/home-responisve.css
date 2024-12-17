@@ -1,0 +1,819 @@
+@media only screen and (max-width : 1800px) {
+    .hero_marketing_agency .shape_img .one {
+        left: 0;
+        top: 310px;
+    }
+}
+
+
+
+
+@media only screen and (max-width : 1600px) {
+    .hero_marketing_agency .shape_img .one {
+        display: none;
+    }
+
+    .hero_marketing_agency .content .section_title h1 {
+        font-size: 91px !important;
+        line-height: 104px;
+        margin-top: 0px;
+    }
+
+    .section_title h2 {
+        font-size: 66px;
+        line-height: 76px;
+    }
+
+    .mobilepc-heading {
+        font-size: 53px;
+        line-height: 64px;
+    }
+
+    .footer .shape_img .two {
+        bottom: 0;
+        right: 167px;
+    }
+
+    .min_counter_area .single_counter h6 {
+        font-size: 37px !important;
+    }
+}
+
+
+@media only screen and (max-width : 1300px) {
+    .hero_marketing_agency .shape_img .one {
+        display: none;
+    }
+
+    .hero_marketing_agency .content .section_title h1 {
+        font-size: 91px !important;
+        line-height: 104px;
+        margin-top: 0px;
+    }
+
+    .section_title h2 {
+        font-size: 66px;
+        line-height: 64px;
+    }
+
+    .mobilepc-heading {
+        font-size: 50px;
+        line-height: 64px;
+    }
+
+    .footer .shape_img .two {
+        bottom: 0;
+        right: 0;
+    }
+
+    .min_counter_area .single_counter p {
+        font-size: 1.2rem;
+    }
+
+    .min_counter_area .single_counter h6 {
+        font-size: 30px !important;
+    }
+
+    .stat-item {
+        font-size: 23.5px;
+    }
+
+    .stat-value {
+        font-size: 32px !important;
+    }
+
+    .digital_agency.h_4 {
+        padding-top: 50px;
+    }
+
+    .faq {
+        padding-top: 0px;
+        padding-bottom: 160px;
+    }
+
+    .digital_agency_heading {
+        font-size: 37px !important;
+        line-height: 50px !important;
+    }
+
+    .footer_bottom .footer_bottom_list .footer_nav li {
+        margin: 0 18px;
+    }
+
+    .header_aria .navbar .navbar-collapse .navbar-nav .nav-item {
+        margin: 0 15px;
+    }
+
+    .header_aria .navbar .navbar-collapse .nav_buttons .contact_btn {
+        font-size: 16px;
+        padding: 10px 25px;
+        margin-left: 0px;
+    }
+
+    .breadcrumb_area .shape_img .two {
+        right: 0 !important;
+        top: 140px !important;
+    }
+
+    .sleepy-sloth-img-1 {
+        width: 500px !important;
+    }
+}
+
+
+@media only screen and (max-width : 1200px) {
+    .faq .content {
+        position: relative;
+    }
+
+    .faq-content-col {
+        position: relative;
+        top: 0;
+        align-self: flex-start;
+        margin-bottom: 50px;
+    }
+    
+    .digital-agency-img {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width : 990px) {
+    .header_aria .navbar .container {
+        background: white !important;
+        border: none !important;
+    }
+
+    .header_aria .navbar .navbar-collapse .nav_buttons {
+        border: none !important;
+    }
+
+    .header_aria.navbar_fixed .navbar {
+        background: #fff !important;
+        box-shadow: 0 4px 6px 0 rgba(12, 0, 46, 0.1) !important;
+    }
+
+    .hero_marketing_agency .shape_img .one {
+        display: none;
+    }
+
+    .hero_marketing_agency .content .section_title h1 {
+        font-size: 57px !important;
+        line-height: 104px;
+        margin-top: 0px;
+    }
+
+    .section_title h2 {
+        font-size: 50px;
+        line-height: 64px;
+    }
+
+    .mobilepc-heading {
+        font-size: 50px;
+        line-height: 64px;
+    }
+
+    .footer .shape_img .two {
+        bottom: 0;
+        right: 167px;
+    }
+
+    .min_counter_area .single_counter p {
+        font-size: 1.2rem;
+    }
+
+    .min_counter_area .single_counter h6 {
+        font-size: 30px !important;
+        line-height: 33px;
+    }
+
+    .hero-section-box {
+        gap: 0px;
+        flex-direction: column;
+    }
+
+    .hero_marketing_agency .content .marketers {
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    .min_counter_area .single_counter {
+        flex-direction: column;
+
+    }
+
+    .min_counter_area {
+        padding-top: 30px;
+    }
+
+    .counter_area {
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+
+    .header_aria .navbar .navbar-collapse .nav_buttons {
+        padding-right: 63px;
+    }
+
+    .stats {
+        gap: 50px;
+        margin: 52.5px 0;
+    }
+
+    .stat-item {
+        font-size: 21px !important;
+    }
+
+    .stat-value {
+        font-size: 26px !important;
+    }
+
+    .main_footer .site_info.logo_area {
+        padding-right: 0px;
+    }
+
+    .footer_bottom .footer_bottom_list .footer_nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer_bottom .footer_bottom_list .footer_nav.right {
+        justify-content: center;
+    }
+
+    .footer_bottom .footer_bottom_list .footer_nav li {
+        margin: 0 20px;
+    }
+
+    .footer .shape_img .two {
+        display: none;
+    }
+
+    .case-study-content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .our-team-heading {
+        font-size: 100px !important;
+    }
+
+    .video-card .quote {
+        font-size: 16.5px !important;
+    }
+
+    .dona-bella-laser-heading {
+        font-size: 2rem !important;
+    }
+
+    .dona-bella-laser-content {
+        flex-direction: column !important;
+        gap: 0px !important;
+    }
+
+    .donna-bell-first-img {
+        width: 100% !important;
+    }
+
+    .sleepy-sloth-img-1 {
+        width: 100% !important;
+    }
+
+    .lemon-img-1 {
+        width: 100% !important;
+    }
+
+    .case-study h2 {
+        padding-left: 0px !important;
+    }
+
+    .case-study p {
+        padding-left: 0px !important;
+    }
+}
+
+
+@media only screen and (max-width : 768px) {
+    
+
+    .hero_marketing_agency .shape_img .one {
+        display: none;
+    }
+
+    .hero_marketing_agency .content .section_title h1 {
+        font-size: 57px !important;
+        line-height: 104px;
+        margin-top: 0px;
+    }
+
+    .section_title h2 {
+        font-size: 38px;
+        line-height: 48px;
+    }
+
+    .mobilepc-heading {
+        font-size: 57px;
+        line-height: 48px;
+    }
+
+    .footer .shape_img .two {
+        bottom: 0;
+        right: 167px;
+    }
+
+    .min_counter_area .single_counter p {
+        font-size: 1rem;
+        padding: 0;
+    }
+
+    .min_counter_area .single_counter h6 {
+        font-size: 25px !important;
+        line-height: 33px;
+    }
+
+    .hero-section-box {
+        gap: 0px;
+        flex-direction: column;
+    }
+
+    .hero_marketing_agency .content .marketers {
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    .min_counter_area .single_counter {
+        flex-direction: column;
+
+    }
+
+    .min_counter_area {
+        padding-top: 30px;
+    }
+
+    .counter_area {
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+
+    .stats {
+        gap: 20px !important;
+        margin: 52.5px 0 !important;
+    }
+
+    .stat-item {
+        font-size: 16px !important;
+    }
+
+    .stat-value {
+        font-size: 20px !important;
+    }
+
+    .main_footer .site_info.logo_area {
+        padding-right: 0px;
+    }
+
+    .footer_bottom .footer_bottom_list .footer_nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer_bottom .footer_bottom_list .footer_nav.right {
+        justify-content: center;
+    }
+
+    .footer_bottom .footer_bottom_list .footer_nav li {
+        margin: 0 16px;
+    }
+
+    .footer .shape_img .two {
+        display: none;
+    }
+
+    .hero_marketing_agency .shape_img .three {
+        display: none;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    .video-section {
+        flex-direction: column;
+        gap: 25px;
+        margin: 35px 10px;
+    }
+
+    .video-card {
+        width: 100%;
+    }
+
+    .testimonial-card {
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 20px;
+        width: 90%;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        text-align: center;
+    }
+
+    .service_box {
+        padding-top: 120px;
+        padding-bottom: 0px;
+    }
+
+    .mobilepc1 {
+        margin-right: 0px;
+    }
+
+    .mobilepc2 {
+        margin-left: 0px;
+        padding-top: 50px;
+    }
+
+    .min_faq_area .accordion .accordion-item .accordion-header button {
+        font-size: 18px;
+    }
+
+    .min_faq_area .accordion .accordion-item .accordion-body {
+        font-size: 16px;
+        text-align: start;
+    }
+
+    .digital_agency .content p {
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .footer_bottom .footer_copyright p {
+        font-size: 14px;
+    }
+
+    .footer .shape_img .one {
+        left: 0;
+        bottom: 320px;
+    }
+
+    .footer_bottom .footer_bottom_list .footer_nav li a {
+        font-size: 15px;
+    }
+
+    .main_footer .site_info .social_icons {
+        margin-bottom: 30px;
+        justify-content: center;
+    }
+
+    .cta-heading {
+        font-size: 2rem;
+    }
+
+    .cta-para {
+        font-size: 1rem;
+        margin: 20px 0;
+    }
+
+    .breadcrumb_area .shape_img .two {
+        display: none !important;
+    }
+
+    .our-team-heading {
+        font-size: 85px !important;
+    }
+
+    .team {
+        padding-top: 50px !important;
+    }
+
+    .team.innar {
+        padding-bottom: 34px !important;
+    }
+    .aword {
+        padding-bottom: 65px !important;
+    }
+    .digital_agency {
+        padding-bottom: 50px !important;
+    }
+    .faq {
+        padding-bottom: 60px !important;
+    }
+
+    .case-studies-heading {
+        margin-bottom: 15px !important;
+        margin-top: 140px !important;
+    }
+}
+
+
+@media only screen and (max-width : 600px) {
+    .info-card {
+        padding: 20px 10px !important;
+    }
+    .info-card h3 {
+        font-size: 1.1rem !important;
+    }
+    .info-card p {
+        font-size: 1rem !important;
+    }
+}
+
+
+@media only screen and (max-width : 500px) {
+    .info-card p {
+        font-size: 14px !important;
+    }
+    .heading {
+        font-size: 22px;
+    }
+
+    .breadcrumb_area .shape_img .one {
+        left: 0;
+        bottom: 0;
+    }
+
+    .breadcrumb_area {
+        padding-top: 250px;
+        padding-bottom: 15px !important;
+        position: relative;
+    }
+
+    .paragraph {
+        font-size: 18px;
+    }
+
+    .hero_marketing_agency .shape_img .one {
+        display: none;
+    }
+
+    .hero_marketing_agency .content .section_title h1 {
+        font-size: 42px !important;
+        line-height: 104px;
+        margin-top: 0px;
+    }
+
+    .hero_marketing_agency .content .section_title p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 30px;
+        margin: 0px 10px;
+    }
+
+    .section_title h2 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .mobilepc-heading {
+        font-size: 42px !important;
+        line-height: 48px;
+    }
+
+    .footer .shape_img .two {
+        bottom: 0;
+        right: 167px;
+    }
+
+    .min_counter_area .single_counter p {
+        font-size: 1rem;
+        padding: 0;
+    }
+
+    .min_counter_area .single_counter h6 {
+        font-size: 25px !important;
+        line-height: 33px;
+    }
+
+    .hero-section-box {
+        gap: 0px;
+        flex-direction: column;
+    }
+
+    .hero_marketing_agency .content .marketers {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        flex-direction: column;
+        gap: 18px;
+        justify-content: center;
+    }
+
+    .min_counter_area .single_counter {
+        flex-direction: column;
+
+    }
+
+    .min_counter_area {
+        border-bottom: 2px solid #131313;
+        padding-bottom: 30px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        width: 90%;
+        max-width: 1200px;
+        justify-content: center;
+    }
+
+
+    .counter_area {
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+
+    .stats {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        justify-content: center;
+        margin: 52.5px 0;
+    }
+
+
+    .stat-item {
+        font-size: 18px !important;
+    }
+
+    .stat-value {
+        font-size: 24px !important;
+    }
+
+    .digital_agency_heading {
+        font-size: 32px !important;
+        line-height: 39px !important;
+    }
+
+    .main_footer .site_info.logo_area {
+        padding-right: 0px;
+    }
+
+    .footer_bottom .footer_bottom_list .footer_nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer_bottom .footer_bottom_list .footer_nav.right {
+        justify-content: center;
+    }
+
+    .footer_bottom .footer_bottom_list .footer_nav li {
+        margin: 0 6px;
+    }
+
+    .footer .shape_img .two {
+        display: none;
+    }
+
+    .hero_marketing_agency .shape_img .three {
+        display: none;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    .video-section {
+        flex-direction: column;
+        gap: 25px;
+        margin: 35px 10px;
+    }
+
+    .video-card {
+        width: 100%;
+    }
+
+    .testimonial-card {
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 20px;
+        width: 90%;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        text-align: center;
+    }
+
+    .service_box {
+        padding-top: 120px;
+        padding-bottom: 0px;
+    }
+
+    .mobilepc1 {
+        margin-right: 0px;
+    }
+
+    .min_faq_area .accordion .accordion-item .accordion-header button {
+        font-size: 18px;
+    }
+
+    .min_faq_area .accordion .accordion-item .accordion-body {
+        font-size: 16px;
+        text-align: start;
+        line-height: 24px !important;
+    }
+
+    .digital_agency .content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .footer_bottom .footer_copyright p {
+        font-size: 14px;
+    }
+
+    .footer .shape_img .one {
+        left: 0;
+        bottom: 320px;
+    }
+
+    .footer_bottom .footer_bottom_list .footer_nav li a {
+        font-size: 12px;
+    }
+
+    .main_footer .site_info .social_icons {
+        margin-bottom: 30px;
+        justify-content: center;
+    }
+
+    .cta-heading {
+        font-size: 30px;
+    }
+
+    .cta-para {
+        font-size: 16px;
+        margin: 20px 0;
+    }
+
+    .hero-input {
+        width: 95%;
+    }
+
+    .min_service_box_area .single_service_box {
+        padding-top: 40px;
+        padding-left: 10px;
+        padding-bottom: 40px;
+        padding-right: 10px;
+    }
+
+    .case-study img {
+        width: 100% !important;
+    }
+
+    .case-study h2 {
+        font-size: 1.4rem !important;
+        padding-left: 0px !important;
+    }
+
+    .case-study p {
+        font-size: 1rem !important;
+        margin: 25px 0 !important;
+        padding-left: 0px !important;
+    }
+
+    .case-study {
+        padding: 10px !important;
+    }
+
+    .case-study a {
+        width: 100% !important;
+        padding: 15px 23px !important;
+    }
+
+    .case-studies-heading {
+        font-size: 2.5rem !important;
+    }
+
+    .our-team-heading {
+        font-size: 60px !important;
+        margin-top: -57px !important;
+    }
+
+    .digital_agency .content .agency_list li {
+        font-size: 15px !important;
+        line-height: 20px !important;
+    }
+
+    .case-studies-inner-content-heading-h1 {
+        font-size: 30px !important;
+        margin-top: 150px !important;
+    }
+
+    .content-box {
+        padding: 10px !important;
+    }
+
+    .case-studies-inner-content-heading-h2 {
+        font-size: 24px !important;
+    }
+
+    .case-studies-inner-content-para {
+        font-size: 16px !important;
+        line-height: 24px !important;
+    }
+}

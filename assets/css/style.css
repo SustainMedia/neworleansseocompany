@@ -48,6 +48,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
 @font-face {
   font-family: ClashDisplay;
   src: url(../fonts/ClashDisplay-Semibold.ttf);
@@ -68,6 +69,14 @@ a {
 
 .shape_img img {
   position: absolute;
+}
+
+.mobilepc-heading {
+  color: #131313;
+  font-family: "ClashDisplay", sans-serif;
+  font-weight: 600;
+  font-size: 66px;
+  line-height: 76px;
 }
 
 .section_title h2 {
@@ -129,6 +138,18 @@ a {
   src: url(../fonts/ClashDisplay-Semibold.ttf);
 }
 
+.mobilepc1 {
+  flex: 1;
+  margin-right: 25px;
+}
+
+.mobilepc2 {
+  flex: 1;
+  margin-left: 25px;
+  padding-top: 100px;
+}
+
+
 .hero_main {
   padding-top: 250px;
   padding-bottom: 550px;
@@ -137,6 +158,13 @@ a {
 
 .hero_main .content {
   position: relative;
+}
+
+.hero-section-box {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .hero_main .content .section_title h1 {
@@ -148,8 +176,10 @@ a {
 }
 
 .section_title h1 {
-    font-size: 3rem; /* Adjust font size */
-    line-height: 1.2; /* Add spacing between lines */
+  font-size: 3rem;
+  /* Adjust font size */
+  line-height: 1.2;
+  /* Add spacing between lines */
 }
 
 
@@ -753,6 +783,7 @@ a {
   padding-bottom: 60px;
   padding-right: 40px;
   margin: 0 7px;
+  height: 100%;
   transition: .3s;
 }
 
@@ -1762,6 +1793,10 @@ a {
   padding-bottom: 150px;
 }
 
+/* .digital-agency-img {
+  width: 100%;
+} */
+
 .digital_agency .content p {
   color: #131313;
   font-family: "Inter", sans-serif;
@@ -1773,6 +1808,7 @@ a {
 
 .digital_agency .content .agency_list {
   margin-top: 30px;
+  text-align: center;
 }
 
 .digital_agency .content .agency_list li {
@@ -2079,6 +2115,15 @@ a {
 .min_counter_area {
   border-bottom: 2px solid #131313;
   padding-bottom: 30px;
+  display: flex;
+  width: 90%;
+  max-width: 1200px;
+  justify-content: space-between;
+}
+
+.counter-container {
+  display: flex;
+  justify-content: center;
 }
 
 .min_counter_area .single_counter {
@@ -2090,7 +2135,7 @@ a {
   color: #FC7942;
   font-family: "ClashDisplay", sans-serif;
   font-weight: 600;
-  font-size: 88px;
+  font-size: 37px;
   line-height: 98px;
 }
 
@@ -2102,7 +2147,7 @@ a {
   color: #131313;
   font-family: "Inter", sans-serif;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1.5rem;
   line-height: 24px;
   padding-left: 15px;
 }
@@ -3380,6 +3425,12 @@ a {
   position: relative;
 }
 
+.faq-content-col {
+  position: sticky;
+  top: 200px;
+  align-self: flex-start;
+}
+
 .faq .content {
   position: sticky;
   left: 0;
@@ -4189,15 +4240,15 @@ a {
   margin-top: 45px;
 }
 
-<style>
-    .navbar .nav-link {
-        color: white !important; /* Change navbar text to white */
-    }
+.navbar .nav-link {
+  color: white !important;
+  /* Change navbar text to white */
+}
 
-    .navbar .nav-link:hover {
-        color: #ff5733 !important; /* Optional: Change color on hover */
-    }
-</style>
+.navbar .nav-link:hover {
+  color: #ff5733 !important;
+  /* Optional: Change color on hover */
+}
 
 
 .product_details .product_info .bottom .cart_area .form-control {
@@ -4610,7 +4661,7 @@ a {
 }
 
 .header_aria .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
-  color: #131313;
+  color: #131313 !important;
   font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 16px;
@@ -5092,6 +5143,11 @@ a {
   font-weight: 400;
   font-size: 18px;
   line-height: 32px;
+  text-align: center;
+}
+
+.contact_list {
+  text-align: center;
 }
 
 .main_footer .site_info .contact_list li a {
@@ -5186,4 +5242,237 @@ a {
   font-size: 18px;
   line-height: 32px;
 }
+
+
+.custom-input {
+  padding: 12px 15px;
+  /* Add padding inside the box */
+  border-radius: 6px;
+  /* Make corners slightly rounded */
+  border: 1px solid #ddd;
+  /* Add a subtle border */
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  /* Optional: Add a slight inset shadow */
+  outline: none;
+  /* Remove the default blue outline */
+}
+
+.custom-input:focus {
+  border-color: #007bff;
+  /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+  /* Add a soft glow on focus */
+}
+
+textarea.custom-input {
+  resize: none;
+  /* Disable resizing for consistency */
+  height: 120px;
+  /* Set a fixed height for the textarea */
+}
+
+.custom-submit {
+  border-radius: 6px;
+  /* Match the input box radius */
+  padding: 12px 20px;
+  /* Adjust button padding */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  /* background-color: #00000; */
+}
+
+.section-title {
+  font-size: 42px;
+  /* 1.75x of 24px */
+  font-weight: bold;
+  margin: 70px 0 35px;
+}
+
+/*
+  .section-title {
+      font-size: 35px; 
+      font-weight: bold;
+      margin: 40px 0 25px;
+  }
+  */
+.highlight-orange {
+  color: #FF6600;
+}
+
+.video-section {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  /* 1.75x of 20px */
+  margin: 35px 0;
+}
+
+.video-card {
+  border: 1.75px solid #ddd;
+  /* 1.75x border thickness */
+  border-radius: 14px;
+  /* 1.75x corner radius */
+  overflow: hidden;
+  width: 525px;
+  /* 1.75x of 300px */
+  text-align: center;
+}
+
+.video-card img {
+  width: 100%;
+  height: auto;
+}
+
+.video-card .video-info {
+  background-color: black;
+  color: white;
+  padding: 17.5px;
+  /* 1.75x of 10px */
+  font-size: 28px;
+  /* 1.75x of 16px */
+  text-transform: uppercase;
+}
+
+.video-card .quote {
+  background-color: #FF6600;
+  color: black;
+  padding: 17.5px 0px;
+  font-size: 24.5px;
+  font-style: italic;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 87.5px;
+  /* 1.75x of 50px */
+  margin: 52.5px 0;
+  /* 1.75x of 30px */
+}
+
+.stat-item {
+  font-size: 31.5px;
+  /* 1.75x of 18px */
+}
+
+.stat-value {
+  font-size: 42px;
+  /* 1.75x of 24px */
+  font-weight: bold;
+  color: #79A040;
+}
+
+hr {
+  border: none;
+  border-top: 3.5px solid #ccc;
+  /* 1.75x line thickness */
+  margin: 70px auto;
+  /* 1.75x margin */
+  width: 80%;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  /* Increased gap */
+  flex-wrap: wrap;
+  /* Allow wrapping for smaller screens */
+  margin: 30px auto;
+  max-width: 1400px;
+}
+
+.testimonial-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  /* Increased padding */
+  width: 350px;
+  /* Increased size */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.testimonial-image {
+  width: 100px;
+  /* Increased size */
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+.testimonial-name {
+  font-size: 20px;
+  /* Increased size */
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.testimonial-role {
+  font-size: 16px;
+  /* Increased size */
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.testimonial-quote {
+  background-color: #FFD700;
+  color: black;
+  font-size: 18px;
+  /* Increased size */
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.testimonial-text {
+  font-size: 16px;
+  /* Increased size */
+  line-height: 1.7;
+  color: #333;
+}
+
+.cta-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.cta-para {
+  font-size: 1.4rem;
+  margin: 10px 0;
+}
+
+.hero-input {
+  border-radius: 10px !important;
+  width: 55%;
+  height: 50px;
+  padding-left: 12px !important;
+  line-height: 50px;
+  text-align: left;
+}
+.navbar-toggler-icon {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.navbar-toggler:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+ul {
+  text-align: start;
+}
+
 /*# sourceMappingURL=style.css.map */
