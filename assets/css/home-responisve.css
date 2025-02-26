@@ -147,11 +147,25 @@
         width: 33% !important;
     }
 
+    .first-section1::before {
+        left: 0;
+        width: 33% !important;
+    }
+
+    .first-section1::after {
+        right: 0;
+        width: 33% !important;
+    }
+
     .local-seo-heading {
         font-size: 32px;
     }
 
     .local-seo-para {
+        font-size: 18px !important;
+    }
+
+    .local-seo-para1 {
         font-size: 18px !important;
     }
 
@@ -624,6 +638,10 @@
         font-size: 15px !important;
     }
 
+    .local-seo-para1 {
+        font-size: 15px !important;
+    }
+
     .search-box {
         flex-direction: column;
         margin: 30px 0;
@@ -981,6 +999,10 @@
     }
 
     .local-seo-para {
+        font-size: 14px !important;
+    }
+
+    .local-seo-para1 {
         font-size: 14px !important;
     }
 

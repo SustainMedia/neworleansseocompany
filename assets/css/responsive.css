@@ -891,6 +891,14 @@
         padding-top: 15px;
         padding-bottom: 10px;
     }
+
+    .form-box {
+        max-width: 100%;
+    }
+
+    #arrow-icon {
+        transform: rotate(90deg);
+    }
 }
 
 @media(max-width: 767px) {
@@ -1778,6 +1786,14 @@
     .min_contact_box {
         margin-top: 30px;
     }
+
+    .contact-input-box {
+        flex-direction: column;
+    }
+
+    .iti {
+        width: 100% !important;
+    }
 }
 
 @media(max-width: 576px) {
@@ -1792,6 +1808,65 @@
     .min_project_slider_two_area .single_project_slider_two .project_bottom h4 a {
         font-size: 18px;
         line-height: 30px;
+    }
+
+    .contact-page-first-section {
+        padding: 154px 0px 140px 0px;
+    }
+
+    .form-box {
+        padding: 25px 20px 25px 20px;
+    }
+
+    .contact-head h2 {
+        font-size: 28px;
+    }
+
+    .contact-head p {
+        font-size: 13px;
+    }
+
+    .contact-input-box input {
+        font-size: 14px;
+        height: 45px;
+    }
+
+    .contact-input-box select {
+        font-size: 14px;
+        height: 45px;
+    }
+
+    .contact-final-textbox textarea {
+        font-size: 14px;
+    }
+
+    .contact-btn {
+        font-size: 15px;
+    }
+
+    .in-a-hurry {
+        font-size: 12px;
+    }
+
+    .contact-ready-heading h1 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .jump-start-p {
+        font-size: 14px;
+    }
+
+    .step-title {
+        font-size: 24px;
+    }
+
+    .step-description{
+        font-size: 14px;
+    }
+
+    .contact-info-bold, .contact-info-normal {
+        font-size: 14px;
     }
 }
 
