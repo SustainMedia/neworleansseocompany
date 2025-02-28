@@ -353,24 +353,14 @@
     <script src="assets/js/jquery-ui.js"></script>
     <script src="assets/js/main.js"></script>
     <script>
-        const input = document.querySelector("#phone-number");
-        const iti = window.intlTelInput(input, {
-            separateDialCode: true, // Optional: Shows country code separately
-            utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js", // For validation and formatting
-        });
-
-        document.getElementById('arrow-icon').addEventListener('click', function () {
-            window.history.back();
-        });
-
-
-        //var url = "https://hooks.slack.com/triggers/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"
-        var url = "https://webhook.site/237b2741-9bc3-4ead-9b37-6d8b4debbcab"
-
-        document.getElementById('infoForm').addEventListener('submit', function (event) {
-            event.preventDefault();
-            var data = {
-                "first_name": document.getElementById("first_name").value,
+         document.addEventListener('DOMContentLoaded', function() {
+             //var url = "https://hooks.slack.com/triggers/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"
+             var url = "https://webhook.site/237b2741-9bc3-4ead-9b37-6d8b4debbcab"
+             
+             document.getElementById('infoForm').addEventListener('submit', function (event) {
+                 event.preventDefault();
+                 var data = {
+                     "first_name": document.getElementById("first_name").value,
                 "last_name": document.getElementById("last_name").value,
                 "company_name": document.getElementById("company_name").value,
                 "email_address": document.getElementById("email_address").value,
@@ -381,25 +371,36 @@
                 "check_google_ads": document.getElementById("check_google_ads").checked,
                 "business_description": document.getElementById("business_description").value
             }
-
+            
             fetch(url, {
                 method: 'POST',
                 body: JSON.stringify(data)
             })
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Network response was not OK');
-                    }
-                    return response.json();
-                })
-                .then(json => {
-                    console.log('Success:', json);
-                })
-                .catch(error => {
-                    console.error('Error:', error);
-                });
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not OK');
+                }
+                return response.json();
+            })
+            .then(json => {
+                console.log('Success:', json);
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        });
+    }
+
+
+        const input = document.querySelector("#phone-number");
+        const iti = window.intlTelInput(input, {
+            separateDialCode: true, // Optional: Shows country code separately
+            utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js", // For validation and formatting
         });
 
+        document.getElementById('arrow-icon').addEventListener('click', function () {
+            window.history.back();
+        });
     </script>
 </body>
 
