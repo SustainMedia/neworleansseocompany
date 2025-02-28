@@ -89,16 +89,16 @@
                                 <p>Partner with Thrive Internet Marketing Agency and scale your business.</p>
                             </div>
                             <div class="contact-input-box">
-                                <input type="text" name="first_name" placeholder="First Name*">
-                                <input type="text" name="last_name" placeholder="Last Name*">
+                                <input type="text" id="first_name" placeholder="First Name*">
+                                <input type="text" id="last_name" placeholder="Last Name*">
                             </div>
                             <div class="contact-input-box">
-                                <input type="text" name="company_name" placeholder="Company/Organization*">
-                                <input type="text" name="website_url" placeholder="Website">
+                                <input type="text" id="company_name" placeholder="Company/Organization*">
+                                <input type="text" id="website_url" placeholder="Website">
                             </div>
                             <div class="contact-input-box">
-                                <input type="text" name="email_address" placeholder="Email Address*">
-                                <input id="phone-number" name="phone_number" type="tel" class="iti-here-with-input"
+                                <input type="text" id="email_address" placeholder="Email Address*">
+                                <input id="phone_number" type="tel" class="iti-here-with-input"
                                     placeholder="Phone Number*">
                             </div>
 
@@ -110,17 +110,17 @@
                                         <!-- First Column -->
                                         <div class="col-12">
                                             <label class="custom-checkbox">
-                                                <input type="checkbox" name="check_local_seo">
+                                                <input type="checkbox" id="check_local_seo">
                                                 <span class="checkmark"></span>
                                                 Local Chiropractor SEO (rank higher on Google)
                                             </label>
                                             <label class="custom-checkbox">
-                                                <input type="checkbox" name="check_google_ads">
+                                                <input type="checkbox" id="check_google_ads">
                                                 <span class="checkmark"></span>
                                                 Google Ads
                                             </label>
                                             <label class="custom-checkbox">
-                                                <input type="checkbox" name="check_website_design">
+                                                <input type="checkbox" id="check_website_design">
                                                 <span class="checkmark"></span>
                                                 Website Design
                                             </label>
@@ -187,7 +187,7 @@
                             </div>
 
                             <div class="contact-final-textbox mt-3">
-                                <textarea name="business_description" id="" placeholder="Tell us about your business"
+                                <textarea id="business_description" placeholder="Tell us about your business"
                                     rows="2"></textarea>
                             </div>
 
@@ -369,25 +369,20 @@
         document.getElementById('infoForm').addEventListener('submit', function (event) {
             event.preventDefault();
             var data = {
-                "first_name": document.getElementsByName("first_name"),
-                "last_name": document.getElementsByName("last_name"),
-                "company_name": document.getElementsByName("company_name"),
-                "email_address": document.getElementsByName("email_address"),
-                "phone_number": document.getElementsByName("phone_number"),
-                "website_url": document.getElementsByName("website_url"),
-                "check_local_seo": document.getElementsByName("check_local_seo"),
-                "check_website_design": document.getElementsByName("check_website_design"),
-                "check_google_ads": document.getElementsByName("check_google_ads"),
-                "business_description": document.getElementsByName("business_description")
+                "first_name": document.getElementById("first_name").value,
+                "last_name": document.getElementById("last_name").value,
+                "company_name": document.getElementById("company_name").value,
+                "email_address": document.getElementById("email_address").value,
+                "phone_number": document.getElementById("phone_number").value,
+                "website_url": document.getElementById("website_url").value,
+                "check_local_seo": document.getElementById("check_local_seo").checked,
+                "check_website_design": document.getElementById("check_website_design").checked,
+                "check_google_ads": document.getElementById("check_google_ads").checked,
+                "business_description": document.getElementById("business_description").value
             }
 
             fetch(url, {
                 method: 'POST',
-                /*
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                */
                 body: JSON.stringify(data)
             })
                 .then(response => {
@@ -403,41 +398,7 @@
                     console.error('Error:', error);
                 });
         });
-        /*
-        function sendForm() {
-            var url = "https://hooks.slack.com/triggers/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"
-            var data = {
-                "website_url": document.getElementsByName("website_url"),
-                "check_local_seo": "true",
-                "check_website_design": "false",
-                "first_name": "Etienne",
-                "phone_number": "515-555-5555",
-                "last_name": "Ouellette-Halle",
-                "email_address": "etienneoh@hotmail.ca",
-                "company_name": "Etienne's Company4",
-                "check_google_ads": "false",
-                "business_description": "This is my company"
-            }
-            /*
-                        fetch(url,
-                            {
-                                method: "POST",
-                                headers: { 'Content- Type': 'application/ json' },
-                                body: JSON.stringify(data),
-                            }
-                        )
-                            .then(res => {
-                                console.log(res);
-                            });
-            
-            var request = new XMLHttpRequest();
-            request.open("POST", url);
 
-            request.setRequestHeader('Content-type', 'application/json');
-
-            request.send(JSON.stringify(data));
-        }
-        */
     </script>
 </body>
 
