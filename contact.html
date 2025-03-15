@@ -22,9 +22,13 @@
         }
         .success {
           color: green;
+          font-size: x-large;
+          font-style:italic;
         }
         .error {
           color: red;
+          font-size: x-large;
+          font-style:italic;
         }
       </style>
 </head>
@@ -371,13 +375,13 @@
                 return response.json();
             })
             .then(json => {
-                responseMessage.textContent = "Form submitted successfully!";
+                responseMessage.textContent = "Form submitted successfully. We'll get in touch soon !";
                 responseMessage.className = 'success';
                 responseMessage.classList.remove('hidden');
             })
             .catch(error => {
                 console.error('Error:', error);
-                responseMessage.textContent = "There was an error submitting the form.";
+                responseMessage.textContent = "There was an error submitting this form.";
                 responseMessage.className = 'error';
                 responseMessage.classList.remove('hidden');
             });
