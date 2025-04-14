@@ -178,7 +178,7 @@
                     <video autoplay muted loop playsinline loading="lazy" class="background-video">
                         <source src="./assets/video/bg-video-optimized.mp4" type="video/mp4">
                     </video>
-                    <img src="assets/img/Med Spa Lobby.webp" alt="Background image for mobile" class="background-image">
+                    <img src="assets/img/home-bg.jpg" alt="Background image for mobile" class="background-image">
                 </div>
             </div>
             <div class="service-bg-dark"></div>
@@ -193,7 +193,7 @@
                             </div>
                             <div class="right">
                                 <img src="https://lapeyreroofing.com/images/core/protection.svg" alt="">
-                                <p><span class="bold-1">SATISFACTION</span><br> GUARANTEED</p>
+                                <p><span class="bold-1">TOP OF GOOGLE</span><br> GUARANTEED</p>
                             </div>
                         </div>
                     </div>
@@ -243,24 +243,27 @@
             <div class="right">
                 <div class="first-section-right-form">
                     <div class="first-section-form-inner">
-                        <div class="form-first-heading">Get a <a href="#">FREE</a></div>
-                        <div class="form-second-heading">SEO and Webiste Audit Today!</div>
+                        <!-- <div class="form-first-heading">Get a <a href="#">FREE</a></div> -->
+                        <div class="form-second-heading">Get an SEO Audit Today, For FREE!</div>
                         <div class="input-boxes">
                             <select id="schedule_service" required>
-                                <option selected disabled>Choose Service*</option>
-                                <option value="">Local SEO</option>
-                                <option value="">Google Ads</option>
-                                <option value="">Website Design and Development</option>
+                                <option selected disabled value="">Choose Service*</option>
+                                <option value="Local SEO">Local SEO</option>
+                                <option value="Google Ads">Google Ads</option>
+                                <option value="Website Design and Development">Website Design and Development</option>
                             </select>
                             <input type="text" id="schedule_name" placeholder="Name*" required>
                             <input type="email" id="schedule_email" placeholder="Email*" required>
                             <input type="tel" id="schedule_phone" placeholder="Phone Number*" required>
                             <input type="text" id="website_url" placeholder="Website URL*" required>
-                            <button type="submit" class="scheduleBtn" id="schedule_btn_form">Schedule FREE
-                                Estimate</button>
+                            <button type="submit" class="scheduleBtn" id="schedule_btn_form">Get FREE Audit</button>
+                            
+                            <!-- Message container -->
+                            <p id="schedule_message" style="margin-top: 10px; margin-bottom: 0; text-align: start; font-size: 14px;"></p> 
+                            
                             <div class="first-section-form-last-box">
                                 <div class="first-section-form-last-box-left">
-                                    <img src="assets/img/Sustain Media Footer Logo.png"
+                                    <img src="assets/img/logo-white.png"
                                         width="150px" alt="">
                                 </div>
                                 <div class="first-section-form-last-box-right">
@@ -364,7 +367,7 @@
                             </div>
                             <div class="single_counter">
                                 <h6>$ <span class="counter">4.23</span>M</h6>
-                                <p id="service">in Revenue <br> Added</p>
+                                <p id="service">Added <br> Revenue</p>
                             </div>
                         </div>
                     </div>
@@ -406,10 +409,8 @@
                                 <div class="col-lg-6 col-xl-4 mt-4">
                                     <div class="single_service_box wow fadeInLeft" data-wow-delay="0.7s">
                                         <img src="assets/img/icon/service_box/3.svg" alt="">
-                                        <h2>Technical SEO</h2>
-                                        <p>Clean up your site's code including things such as indexing, canonical URLs,
-                                            site speed,
-                                            schema markup, and accessibility.</p>
+                                        <h2>Google Ads</h2>
+                                        <p>Rank at the top of Google in the sponsored results. Appear more than once on the first page of Google.</p>
                                         <!-- <a href="#contact" class="text_btn">Learn more <i
                                                 class="fa-solid fa-arrow-right"></i></a> -->
                                     </div>
@@ -495,29 +496,31 @@
 
             <!-- Video Card 2 -->
             <div class="video-card">
-                <script src="https://fast.wistia.com/embed/medias/unh1d0tjwb.jsonp" async></script>
-                <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
-                <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
-                    <div class="wistia_responsive_wrapper"
-                        style="height:100%;left:0;position:absolute;top:0;width:100%;">
-                        <div class="wistia_embed wistia_async_unh1d0tjwb seo=true videoFoam=true"
-                            style="height:100%;position:relative;width:100%;">
-                            <div class="wistia_swatch"
-                                style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;">
-                                <img src="https://fast.wistia.com/embed/medias/unh1d0tjwb/swatch"
-                                    style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt=""
-                                    aria-hidden="true" onload="this.parentNode.style.opacity=1;" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <!-- Load Wistia player scripts -->
+                <script src="https://fast.wistia.com/player.js" async></script>
+                <script src="https://fast.wistia.com/embed/3i6lfdbdf2.js" async type="module"></script>
+            
+                <!-- Swatch-style fallback -->
+                <style>
+                    wistia-player[media-id='3i6lfdbdf2']:not(:defined) {
+                        background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/3i6lfdbdf2/swatch');
+                        display: block;
+                        filter: blur(5px);
+                        padding-top: 56.25%;
+                    }
+                </style>
+            
+                <!-- Embedded Wistia player -->
+                <wistia-player media-id="3i6lfdbdf2" aspect="1.7777777777777777"></wistia-player>
+            
+                <!-- Additional video info -->
                 <div class="video-info">
-                    Suhit Amin <br>
-                    Saulderson Media
+                    JOSHUA HALLENBECK <br>
+                    THE GROUNDSMEN LANDSCAPING
                 </div>
-                <div class="quote">"Sustain Media actually grew my business"</div>
-
+                <div class="quote">"Noah brought me 180 leads this month"</div>
             </div>
+            
         </div>
     </section>
 
@@ -536,7 +539,7 @@
         <!-- Stat Item 3 -->
         <div class="stat-item">
             <div class="stat-value"><span class="highlight-orange">+250%</span></div>
-            Online Leads
+            Reputation
         </div>
         <!-- Stat Item 4 -->
         <div class="stat-item">
@@ -588,9 +591,7 @@
             <div class="testimonial-role">CEO @ The Groundsmen Landscaping</div>
             <div class="testimonial-quote">“Local SEO Geniuses”</div>
             <p class="testimonial-text">
-                Noah and his team took my landscaping company from invisible on Google to, on average, the 1st and 2nd
-                positions on Google search.
-                We get 10-15 qualified leads a month now despite our local area being on the smaller side.
+                Noah and his team literally brought my business 185 leads this past month. I don't know how they do it. Before them, we didn't do any online marketing.
             </p>
         </div>
 
@@ -1061,6 +1062,66 @@
         });
     });
 
+</script>
+
+<script>
+    $("#schedule_btn_form").on('click', function (e) {
+        e.preventDefault();
+
+        // Clear message
+        const messageEl = $("#schedule_message");
+        messageEl.text("").css("color", "");
+
+        // Get values
+        const schedule_name = $("#schedule_name").val().trim();
+        const schedule_service = $("#schedule_service").val();
+        const schedule_email = $("#schedule_email").val().trim();
+        const schedule_phone = $("#schedule_phone").val().trim();
+        const website_url = $("#website_url").val().trim();
+        const current_page_url = window.location.href;
+
+        // Validate
+        if (!schedule_name || !schedule_service || !schedule_email || !schedule_phone || !website_url) {
+            messageEl.text("Please fill in all fields.").css("color", "red");
+            return;
+        }
+
+        // Optional: Add regex checks for email and phone if needed
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(schedule_email)) {
+            messageEl.text("Please enter a valid email address.").css("color", "red");
+            return;
+        }
+
+        // Optional: Phone number validation
+        const phoneRegex = /^[0-9+\s()-]{7,20}$/;
+        if (!phoneRegex.test(schedule_phone)) {
+            messageEl.text("Please enter a valid phone number.").css("color", "red");
+            return;
+        }
+
+        // Send AJAX request
+        $.ajax({
+            url: 'assets/php/submit-form.php', // Replace with your PHP endpoint
+            type: 'POST',
+            data: {
+                name: schedule_name,
+                service: schedule_service,
+                email: schedule_email,
+                phone: schedule_phone,
+                website: website_url,
+                page_url: current_page_url
+            },
+            success: function (response) {
+                messageEl.text("Thank you! Your audit request has been submitted.").css("color", "green");
+                // Optionally clear the form
+                $("#schedule_name, #schedule_service, #schedule_email, #schedule_phone, #website_url").val("");
+            },
+            error: function () {
+                messageEl.text("There was an error submitting the form. Please try again.").css("color", "red");
+            }
+        });
+    });
 </script>
 
 </html>
