@@ -2110,7 +2110,7 @@ a {
 
 .counter_area {
   padding-top: 20px;
-  padding-bottom: 150px;
+  /* padding-bottom: 150px; */
 }
 
 .min_counter_area {
