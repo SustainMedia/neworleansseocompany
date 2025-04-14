@@ -35,9 +35,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->Port = 587;
 
         $mail->setFrom('groundsmenwebsiteform@gmail.com', 'New Orleans SEO Company');
-        $mail->addAddress('getgroundskeeping@icloud.com');
+        $mail->addAddress('igler@sustain-media.com');
         // $mail->addAddress('muhammadumair25591@gmail.com');
-        $mail->addAddress('access@sustain-media.com');
+        // $mail->addAddress('access@sustain-media.com');
 
         $mail->isHTML(true);
         $mail->Subject = 'NEW LEAD - New Orleans SEO Company Form Submission';
